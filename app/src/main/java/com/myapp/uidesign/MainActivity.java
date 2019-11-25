@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         // Create and get the TimerView
         TimerView t = TimerView.getInstance(this);
 
-        t.reset(15000, 15000);
+        t.reset(900000, 120000);
 
         // **IMPORTANT** do not forget to set layout params before adding a layout to another
         // For TimerView, you need to set YourLayout.LayoutParams.MATCH_PARENT for both arguments in order for it to work properly

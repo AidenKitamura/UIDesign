@@ -183,7 +183,7 @@ public class TimerView extends FrameLayout {
     }
 
     // To rest
-    private static void rest(){
+    public static void rest(){
         viewRest.setAlpha(0.0f);
         viewRest.setVisibility(View.VISIBLE);
 
@@ -220,7 +220,7 @@ public class TimerView extends FrameLayout {
     }
 
     // To study
-    private static void study(){
+    public static void study(){
         viewStudy.setAlpha(0.0f);
         viewStudy.setVisibility(View.VISIBLE);
 
