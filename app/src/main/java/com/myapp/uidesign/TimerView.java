@@ -52,6 +52,7 @@ public class TimerView extends FrameLayout {
             viewRest = new LinearLayout(context);
             clock = new TextClock(context);
             clock.setFormat24Hour("hh:mm");
+            clock.setFormat12Hour("kk:mm");
             textColor = 0xBFEFEFEF;
 
             // By default we set study period to 45 and rest period to 15
