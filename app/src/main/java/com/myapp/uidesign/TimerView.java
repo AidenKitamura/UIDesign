@@ -12,7 +12,6 @@ import android.widget.TextClock;
 import android.widget.TextView;
 
 import java.util.Locale;
-import java.util.TimerTask;
 
 import androidx.core.content.res.ResourcesCompat;
 
@@ -52,6 +51,7 @@ public class TimerView extends FrameLayout {
             viewStudyVertical = new LinearLayout(context);
             viewRest = new LinearLayout(context);
             clock = new TextClock(context);
+            clock.setFormat24Hour("hh:mm");
             textColor = 0xBFEFEFEF;
 
             // By default we set study period to 45 and rest period to 15
